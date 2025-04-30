@@ -468,25 +468,27 @@
             </li>
           </ul>
         </div>
-        <form class="footer-form">
-          <label class="footer-label" for="footer-label-email"
-            >Subscribe
-            <input
-              class="footer-input"
-              type="email"
-              name="user_email"
-              id="footer-label-email"
-              placeholder="E-mail"
-              required
-            />
-          </label>
-          <button type="submit" class="button button-submit">
-            Subscribe
-            <svg class="icon-frame" width="24" heiht="20">
-              <use href="/images/icons.svg#icon-frame"></use>
-            </svg>
-          </button>
-        </form>
+        <div class="wraper-footer-form">
+          <p class="footer-form-text">Subscribe</p>
+          <form class="footer-form">
+            <label class="footer-label" for="footer-label-email">
+              <input
+                class="footer-input"
+                type="email"
+                name="user_email"
+                id="footer-label-email"
+                placeholder="E-mail"
+                required
+              />
+            </label>
+            <button type="submit" class="button button-submit">
+              Subscribe
+              <svg class="icon-frame" width="24" heiht="24">
+                <use href="./images/icons.svg#icon-frame"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
 
@@ -495,9 +497,9 @@
     <div class="modal-overlay is-open">
       <div class="modal">
         <form class="popap-form">
-          <label class="title-label" for=""
-            >Leave your contacts and we will call you back
-          </label>
+          <p class="title-label">
+            Leave your contacts and we will call you back
+          </p>
 
           <label class="popap-label" for="user-name">Name</label>
           <div class="container-form-icon">
@@ -566,14 +568,11 @@
           <div class="form-button-container">
             <button class="form-button-submit" type="submit">Send</button>
           </div>
-
-          <div class="poiuy">
-            <button class="form-button-reset" type="reset">
-              <svg class="button-reset-svg" width="8" height="8">
-                <use href="/images/icons.svg#icon-close"></use>
-              </svg>
-            </button>
-          </div>
+          <button class="form-button-reset" type="button">
+            <svg class="button-reset-svg" width="8" height="8">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
         </form>
       </div>
     </div>
