@@ -45,5 +45,8 @@
         <symbol id="icon-email" viewBox="0 0 32 32">
             <path d="M24 8H8l-2 2v12l2 2h16l2-2V10l-2-2zm0 4-7 5h-2l-7-5 1-1 7 4 7-4a1 1 0 1 1 1 1z"/>
         </symbol>
+        <symbol id="icon-checkmark" viewBox="0 0 32 32">
+            <path d="M27 4l-15 15-7-7-5 5 12 12 20-20z"></path>
+        </symbol>
     </defs>
 </svg>
